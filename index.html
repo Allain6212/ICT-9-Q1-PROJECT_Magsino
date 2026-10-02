@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1Project</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header> 
+        <nav class= "navbar">
+            <img src="Allain Logo.png" alt="Student logo" class="logo">
+            <ul class="navlinks">
+                <li><a href="#about me">About Me</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="Hero">
+        <img src="PFP.jpg" alt="Profile Picture" class="PFP">
+        <h1>Hi, I'm Allain!</h1>
+        <p>An aspiring coder and student leader who enjoys learning</p>
+    </section>
+
+    <section id="about me">
+        <h2>About Me</h2>
+        <p>I am a Grade 9 student at OB Montessori Center. I am a aspiring coder and a dedicated student leader who loves to sing and study.</p>
+    </section>
+
+    <section id="achievements">
+        <h2>Hall of Achievements</h2>
+        <p>Here are some of my achievements and projects that showcase my skills, experiences, and growth as a student.</p>
+        <div class="achievements">
+
+                <div class="achievement 1">
+                    <img src="GR8 PROJ IMG.png" width="350" height="auto" alt="Drill1" style="border: 2px dashed black">
+                    <p>GR8 Figma OBMC Website Design</p>
+                </div>
+
+                <div class="achievement 1">
+                    <ul>
+                        <li>Figma Website Design</li>
+                        <li>OBMC Website Layout</li>
+                        <li>Interactive Elements</li>
+                        <li><a href="https://www.figma.com/design/rmKImqEkONVfCJikOedse4/STA-ANA_ICT8Emerald_Q4_Project_Magsino--Paredes--Salvador--Bengco--Taguba--Amintao?node-id=0-1&t=DwB4n0EUZHNiu5gQ-1" target="_blank">Click to see</a></li>
+                    </ul>
+                </div>       
+        </div>
+         <div class="achievements">
+
+                <div class="achievement 2">
+                    <img src="DRILL 1 PROJ IMG.png" width="350" height="auto" alt="Drill1" style="border: 2px dashed black">
+                    <p>Drill 1: App Recomendations</p>
+                </div>
+
+                <div class="achievement 2">
+                    <ul>
+                        <li>HTML & CSS Properties</li>
+                        <li>Recomended apps to students</li>
+                        <li>List, Hyperlinks, and Images</li>
+                        <li><a href="https://storage.googleapis.com/oa_disk001/obstaana/66/classfeed/2152/submissions/1786690596-3217.html">Click to see</a></li>
+                    </ul>
+                </div>       
+        </div>
+
+    </section>
+
+    <section id="contact me">
+        <h2>Contact Me</h2>
+        <div class="form-container">
+            <form>
+                <label for="name"> Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required>
+                <br>
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="juan.delacruz@example.com" required>
+                <br>
+                <br>
+                <label> How did you hear about me?</label>
+                <div class="radio-group" required>
+                    <br>
+                    <input type="radio" id="friend" name="source" value="Friend" required>
+                    <label for="friend">Friend</label>
+
+                    <input type="radio" id="Instagram" name="source" value="Instagram" required>
+                    <label for="Instagram">Instagram</label>
+
+                    <input type="radio" id="Facebook" name="source" value="Facebook" required>
+                    <label for="Facebook">Facebook</label>
+
+                    <input type="radio" id="Google" name="source" value="Google" required>
+                    <label for="Google">Google</label>
+
+                    <input type="radio" id="other" name="source" value="others" required>
+                    <label for="other">Others</label>
+                </div>
+                <br>
+                <br>
+                <label> Interested in: </label>
+                <div class="checkbox-group" required>
+                    <input type="checkbox" id="web-design" name="interested" value="Web Design">
+                    <label for="web-design">Web Design</label>
+
+                    <input type="checkbox" id="web-development" name="interested" value="Web Development">
+                    <label for="web-development">Web Development</label>
+
+                    <input type="checkbox" id="css" name="interested" value="CSS">
+                    <label for="css">CSS</label>
+                </div>
+                <br>
+                <br>
+
+                <label> Rate Me⭐: </label>
+                <select name="rating" id="rating" required>
+                    <option value="">-Select My Rating-</option>
+                    <option value="1">⭐</option>
+                    <option value="2">⭐⭐</option>
+                    <option value="3">⭐⭐⭐</option>
+                    <option value="4">⭐⭐⭐⭐</option>
+                    <option value="5">⭐⭐⭐⭐⭐</option>
+                </div>
+                </select>
+                <br>
+                <br>
+                <label for="Feedback">Any Feedback?:</label>
+                <br>
+                <textarea id="Feedback" name="Feedback" placeholder="Your feedback here..." required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p> ©2026 Allain Magsino, 9 - Emerald. All rights reserved.</p>
+    </footer>
+</body>
+</html>

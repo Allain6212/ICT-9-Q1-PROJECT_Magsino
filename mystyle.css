@@ -1,0 +1,218 @@
+ /* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DCEEFF;
+    color: #164A70;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #0B3D91;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+
+.Hero {
+    text-align: center;
+    padding: 40px;
+    background: #6FAFE8;
+}
+
+.PFP {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto;
+}
+
+.Hero h1 {
+    text-align: center;
+    color: #0B3D91;
+    margin: 10px 0;
+}
+
+.Hero p {
+    text-align: center;
+    color: #164A70;
+    margin: 10px 0;
+}
+
+/* About Section */
+
+#about\ me,
+#achievements,
+#contact\ me {
+    padding: 5px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#about\ me {
+    text-align: center;
+}
+
+
+/* Achievements */
+
+.achievement p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.achievement {
+    flex: 1 1 45%;
+}
+
+.achievement img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Contact Form */
+
+.form-container {
+    background-color: #F4FAFF;
+    padding: 30px;
+    border-radius: 12px;
+    width: 600px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #8DBBE8;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #164A70;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox-group,
+.radio-group {
+    display: inline-block;
+    align-items: center;
+    gap: 6px;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0;
+}
+
+
+/* Button */
+
+button {
+    margin-top: 20px;
+    background-color: #0B3D91;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1976D2;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0B3D91;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+/* Headings */
+
+h1 {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    background: linear-gradient(90deg, #6FAFE8 10%, #0B3D91 100%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+
+/* Text */
+
+form, p, ul, ol {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+label {
+    color: #164A70;
+    font-weight: bold;
+}
+
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+}
+
+
+
+
